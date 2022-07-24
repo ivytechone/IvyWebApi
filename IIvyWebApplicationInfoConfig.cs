@@ -1,6 +1,6 @@
 ﻿namespace IvyTech.IvyWebApi
 {
-	public class WebApplicationInfoConfig : IWebApplicationInfoConfig
+	public interface IIvyWebApplicationInfoConfig
 	{
 		public string? Environment { get; set; }
 	}

@@ -1,6 +1,6 @@
 ﻿namespace IvyTech.IvyWebApi
 {
-	public interface IWebApplicationInfo
+	public interface IIvyWebApplicationInfo
 	{
 		public string Name { get;  }
 		public string Version { get; }
